@@ -1,15 +1,19 @@
-<nav>
-    <div className="navbar">
-    <ul>
-        <li>
-            Home
-        </li>
-        <li>
-            About
-        </li>
-        <li>
-            Sign up
-        </li>
-    </ul>
+<header class="header">
+    <div class="container">
+        <div class="navbar">
+                <%= link_to 'Home', root_path, {:class => "a"} %>
+            <nav>
+            <ul>
+                <li class="link">
+                    <a href="#">
+                        About
+                    </a>
+                </li>
+                <li class="link">
+                    <%= link_to 'Sign up', new_user_path %>
+                </li>
+            </ul>
+            </nav>
+        </div>
     </div>
-</nav>
+</header>

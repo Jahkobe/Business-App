@@ -14,12 +14,47 @@
  *= require_self
  */
 
- ul{
-     display: flex;
-     justify-items: end;
-
+ *{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
  }
 
- li{
-justify-items: end;
-}
+ /*            */
+ /* The Navbar */
+ /*            */
+
+
+ .header{
+    background-color: black;
+ }
+
+ .navbar{
+     display: flex;
+     justify-content: space-between;
+     justify-items: center;
+ }
+
+ .container{
+     margin: 0 auto;
+     max-width: 90%;
+ }
+ 
+ ul{
+     display: flex;
+ }
+
+ .link{
+     padding: 18px 20px;
+     list-style: none;
+     color: white;
+ }
+
+ .a{
+     color: white;
+     padding: 18px 0;
+ }
+
+ a:visited{
+     color: white;
+ }
