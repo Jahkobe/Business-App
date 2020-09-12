@@ -76,5 +76,10 @@
  .bodycontainer {
     max-width: 60%;
     display: flex;
-    
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
+  .welcomeimage {
+      max-width: 100%;
   }
