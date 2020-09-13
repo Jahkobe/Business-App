@@ -68,11 +68,52 @@
     max-width: 100%;
     height: auto;
  }
-
- /* The Body */
+ 
+ /*            */
+ /* The Body   */
  /*            */
 
  .bodycontainer {
-    max-width: 60%;
+    max-width: 70%;
     display: flex; 
+    justify-content: space-around; 
+    justify-items: center; 
+    margin: 5em auto;
+  }
+
+  .bodylorem{
+      max-width: 40%;
+  }
+  
+  .welcomeimage{
+      max-width: 40%;
+  }
+
+  .welcomeheader{
+      text-align: center;
+  }
+
+ /*            */
+ /*  Services  */
+ /*            */
+
+ .servicesbackground{
+     background-color: lightgray;
+     padding: 5em 0;
+ }
+
+ .servicescontainer {
+    max-width: 70%;
+    display: flex; 
+    justify-content: space-around; 
+    justify-items: center; 
+    margin: 5em auto;
+  }
+
+  .service{
+      max-width: 20%;
+  }
+
+  .serviceheader{
+      text-align: center;
   }
