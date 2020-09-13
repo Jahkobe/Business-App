@@ -69,6 +69,10 @@
     height: auto;
  }
 
+ /* The Body */
  /*            */
-  /* The Body */
- /*            */
+
+ .bodycontainer {
+    max-width: 60%;
+    display: flex; 
+  }
