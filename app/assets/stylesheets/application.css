@@ -74,9 +74,9 @@
 
  .bodycontainer {
     max-width: 60%;
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-around;
+    display: grid;
+    grid-column-gap: 50px;
+      
   }
 
   .welcomeimage {
