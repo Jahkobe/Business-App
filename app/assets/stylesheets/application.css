@@ -74,12 +74,6 @@
  /*            */
 
  .bodycontainer {
-<<<<<<< HEAD
-    max-width: 60%;
-    display: grid;
-    grid-column-gap: 50px;
-      
-=======
     max-width: 70%;
     display: flex; 
     justify-content: space-around; 
@@ -118,7 +112,6 @@
 
   .service{
       max-width: 20%;
->>>>>>> c5c0bd8ed5a7338d4013e0fbf12254bcce8ef990
   }
 
   .serviceheader{
