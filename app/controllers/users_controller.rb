@@ -4,7 +4,6 @@ class UsersController < ApplicationController
 
     def show
         @user = User.find(params[:id])
-
     end
     
     def index
@@ -16,7 +15,7 @@ class UsersController < ApplicationController
     end
 
     def create
-        @user = User.new(params.require(:user).permit(:email, :password))
+        @user = User.new(params.require(:user).permit(:email, :name, :phonenumber))
         @user.save
         redirect_to :root
     end

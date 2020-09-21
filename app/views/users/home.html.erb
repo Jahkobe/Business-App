@@ -1,16 +1,20 @@
 <header class="header">
     <div class="container">
         <div class="navbar">
-                <%= link_to 'Home', root_path, {:class => "a"} %>
+                <%= link_to 'Company LOGO', root_path, {:class => "a"} %>
             <nav>
             <ul>
                 <li class="link">
-                    <a href="#">
-                        About
-                    </a>
+                    <%= link_to 'Home', root_path, {:class => "a"} %>
                 </li>
                 <li class="link">
-                    <%= link_to 'Sign up', new_user_path %>
+                    <%= link_to 'About Us', aboutus_path, {:class => "a"} %>
+                </li>
+                <li class="link">
+                    <%= link_to 'Services', services_path, {:class => "a"} %>
+                </li>
+                <li class="link">
+                    <%= link_to 'Contact Us', contactus_path %>
                 </li>
             </ul>
             </nav>
@@ -108,6 +112,38 @@
             <div class= "welcomeimage">
                 <%= image_tag('beer.png') %>
             </div> 
+        </div>
+
+
+        <div class="bodycontainer">
+            <div class= "welcomeimage">
+                <%= image_tag('beer.png') %>
+            </div> 
+            <div class="bodylorem">
+                <%= form_with scope: :user, url: users_path, local: true do |f| %>
+                    <p>
+                        <p>
+                            <%= f.label :name %></br>
+                            <%= f.text_field :name %>
+                        </p>
+
+                        <p>
+                            <%= f.label :email %></br>
+                            <%= f.text_field :email %>
+                        </p>
+                
+                        <p>
+                            <%= f.label :phonenumber %></br>
+                            <%= f.text_field :phonenumber %>
+                        </p>
+                
+                        <p>
+                            <%= f.submit %>
+                        </p>
+                
+                    </p>
+                <% end %>
+            </div>
         </div>
 
 </body>
