@@ -26,7 +26,7 @@
 
 
  .header{
-    background-color: black;
+    background-color: white;
  }
 
  .navbar{
@@ -47,16 +47,16 @@
  .link{
      padding: 18px 20px;
      list-style: none;
-     color: white;
+     color: #7D8F8C;
  }
 
  .a{
-     color: white;
+     color:  #7D8F8C
      padding: 18px 0;
  }
 
  a:visited{
-     color: white;
+     color:  #7D8F8C;
  }
 
 
@@ -81,8 +81,15 @@
     margin: 5em auto;
   }
 
+  p {
+      font-size: 18px;
+      color: #253D47;
+      font-weight: 600;
+      line-height: 20px;
+  }
+
   .bodylorem{
-      max-width: 40%;
+      max-width: 50%;
   }
   
   .welcomeimage{
@@ -91,14 +98,55 @@
 
   .welcomeheader{
       text-align: center;
+      color: #253D47;
+      font-size: 36px;
+      font-weight: bold;
   }
+
+  .welcomeheadertwo{
+    text-align: center;
+    color: #B0C9B1;
+    font-size: 24px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .buttoncontainer{
+    max-width: 70%;
+    display: flex; 
+    justify-content: space-around; 
+    justify-items: center; 
+    margin: 5em auto;
+  
+  }
+
+    .button {
+        background-color:#7D8F8C ;
+        border: none;
+        color: white;
+        padding: 20px 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+      .button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+  
+
+
+ 
 
  /*            */
  /*  Services  */
  /*            */
 
  .servicesbackground{
-     background-color: lightgray;
+     background-color: #E9E9E9;
      padding: 5em 0;
  }
 
@@ -110,10 +158,28 @@
     margin: 5em auto;
   }
 
-  .service{
-      max-width: 20%;
+ .service{
+      max-width: 15%;
   }
 
-  .serviceheader{
+ .serviceheader{
       text-align: center;
+      color: #253D47;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+  .servicehead{
+    color: #B0C9B1;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 1em 0 1em;
   }
+
+  .servicedescription{
+     font-size: 18px; 
+     font-weight: 500;
+  }
+
+
+  
