@@ -138,8 +138,8 @@
       }
   
 
-      .formLabel{
-        font-family: 'Lato', sans-serif;
+      .formname{
+          height:90px;
       }
 
  
@@ -203,6 +203,7 @@
   .box1 {
       background-color: #B0C9B1;
       padding: 20%;
+      position:relative ;
   }
 
   .box2 {
@@ -241,8 +242,7 @@
 }
 
 .serviceslogodesignimg {
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 
