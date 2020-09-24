@@ -241,8 +241,11 @@
     font-size: 14px;
 }
 
-.serviceslogodesignimg {
-
+.serviceslogodesignimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
