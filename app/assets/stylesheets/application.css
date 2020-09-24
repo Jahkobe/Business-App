@@ -40,7 +40,7 @@
      max-width: 90%;
  }
  
- ul{
+ .navul{
      display: flex;
  }
 
@@ -138,6 +138,9 @@
       }
   
 
+      .formname{
+          height:90px;
+      }
 
  
 
@@ -195,7 +198,6 @@
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 
   }
 
   .box1 {
@@ -241,4 +243,10 @@
 
 
 
-  
+
+ /*            */
+ /*  Fonts     */
+ /*            */
+
+ /* font-family: 'Lato', sans-serif; */
+ /* font-family: 'Oswald', sans-serif; */
