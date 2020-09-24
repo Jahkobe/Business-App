@@ -135,20 +135,20 @@
             <div class="bodylorem">
                 <%= form_with scope: :user, url: users_path, local: true do |f| %>
                     <p>
-                        <p>
-                            <%= f.label :name %></br>
+                        <div>
+                            <%= f.label :name, class: "formLabel" %></br>
                             <%= f.text_field :name %>
-                        </p>
+                        </div>
 
-                        <p>
-                            <%= f.label :email %></br>
+                        <div>
+                            <%= f.label :email, class: "formLabel" %></br>
                             <%= f.text_field :email %>
-                        </p>
+                        </div>
                 
-                        <p>
-                            <%= f.label :phonenumber %></br>
+                        <div>
+                            <%= f.label :phonenumber, class: "formLabel" %></br>
                             <%= f.text_field :phonenumber %>
-                        </p>
+                        </div>
                 
                         <p>
                             <%= f.submit %>
