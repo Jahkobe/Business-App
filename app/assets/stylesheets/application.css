@@ -48,7 +48,13 @@
      padding: 18px 20px;
      list-style: none;
      color: #7D8F8C;
+
  }
+
+ .link:before{
+    display: none;
+    
+}
 
  .a{
      color:  #7D8F8C;
@@ -141,6 +147,7 @@
  /*  Form      */
  /*            */
 
+<<<<<<< HEAD
       .formLabel{
         font-family: 'Lato', sans-serif;
         font-weight: 600;
@@ -173,6 +180,26 @@
         margin-right: auto;
         width: 50%;
       }
+=======
+      .formname{
+          height:90px;
+      }
+
+      @media only screen and (max-width: 1000px) {
+        .bodycontainer {
+            display: block; 
+            max-width: 100%;
+            margin: 4em 4em;
+                }
+        .bodylorem{
+             max-width: 100%;
+                }
+         .welcomeimage{
+            max-width: 100%;
+                }
+    }
+
+>>>>>>> f93a0edb633b453dbf54a3a9e32869e1bd11b6dd
  
 
  /*            */
@@ -189,7 +216,7 @@
     display: flex; 
     justify-content: space-around; 
     justify-items: center; 
-    margin: 5em auto;
+    margin: 0 auto;
   }
 
  .service{
@@ -215,6 +242,27 @@
      font-weight: 500;
   }
 
+  @media only screen and (max-width: 1000px) {
+    .servicescontainer {
+        max-width: 100%;
+        display: block; 
+        display: 0 auto;
+      }
+      .service{
+        max-width: 100%;
+    }
+    .responsiveimg {
+        max-width: 50%;
+        padding-top: 1em;
+    }
+    .servicedescription{
+        padding-bottom: 1em;
+        max-width: 80%;
+     }
+    
+
+    }
+
 
    /*            */
  /*  Service Page  */
@@ -234,6 +282,7 @@
   .box1 {
       background-color: #B0C9B1;
       padding: 20%;
+      position:relative ;
   }
 
   .box2 {
@@ -265,10 +314,12 @@
     font-size: 36px;
     text-align: center;
     padding: 1em;
+    color: #253D47;
 }
 
 .servicepage_description {
     font-size: 14px;
+    padding: 1em;
 }
 
 .serviceslogodesignimg{
@@ -278,6 +329,46 @@
     width: 50%;
 }
 
+#arrow {
+    border-right:2px solid #253D47;
+    border-bottom:2px solid #253D47;
+    width:10px;
+    height:10px;
+    transform: rotate(-45deg);
+    margin-top:40px;
+}
+
+
+
+ul li {
+  position: relative;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #253D47;
+}
+
+ul {
+  list-style: none;
+  padding-left: 3em;
+}
+
+ul li:before{
+   content: '';
+   position: absolute;
+   border-right:2px solid #253D47;
+   border-bottom:2px solid  #253D47;
+   width:10px;
+   height:10px;
+   top: calc(50% - 4px);
+   left: -20px;
+   transform: translateY(-50%) rotate(-45deg);
+}
+
+@media only screen and (max-width: 1000px) {
+    .wrapper {
+        display: block;
+      }
+}
 
 
 
