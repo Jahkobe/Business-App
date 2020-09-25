@@ -147,7 +147,6 @@
  /*  Form      */
  /*            */
 
-<<<<<<< HEAD
       .formLabel{
         font-family: 'Lato', sans-serif;
         font-weight: 600;
@@ -180,7 +179,6 @@
         margin-right: auto;
         width: 50%;
       }
-=======
       .formname{
           height:90px;
       }
@@ -193,13 +191,13 @@
                 }
         .bodylorem{
              max-width: 100%;
-                }
+        }
+
          .welcomeimage{
             max-width: 100%;
-                }
+        }
     }
 
->>>>>>> f93a0edb633b453dbf54a3a9e32869e1bd11b6dd
  
 
  /*            */
