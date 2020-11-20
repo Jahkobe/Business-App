@@ -14,12 +14,27 @@
                     <%= link_to 'Services', root_path, {:class => "a"} %>
                 </li>
                 <li class="link">
-                    <%= link_to 'Contact Us', contactus_path %>
+                    <button class="contactus a" id="contactus">
+                        Contact Us
+                    </button>
                 </li>
             </ul>
             </nav>
         </div>
     </div>
 </header>
-
-<h1>About us Page</h1>
+    <h2 class="welcomeheader aboutUsHeader">About Us</h2>
+        <div class="bodycontainer">
+            <div class="bodylorem">
+                
+                <h3 class="welcomeheadertwo">Website Design & Development </h3>
+                    <p class="aboutUsParagraph">
+                        Aloe Design Co. is a start to finish web design company catered to all your web needs. Here at Aloe our goal is to help make your web goals a reality, whether that is helping you take the first steps to taking your business online, refurbishing that old design scheme, or start to finish web design implementation and deployment and much more. We have a team that can help all your needs, worries and questions from beginning to end, we started out as a small business and our goal is to give that same small business and personable feel that got us to where we are today! Please reach out if you have any questions or would like a free consultation to see if you're ready to take the first or final step into making your web plans a reality.
+                    </p>
+                    </br>
+                    
+            </div>
+            <div class= "welcomeimage">
+                <%= image_tag('founders.png') %>
+            </div> 
+        </div>

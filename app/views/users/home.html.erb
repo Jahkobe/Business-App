@@ -138,17 +138,17 @@
                 <h1 class="formTitle">Free Consultation</h1>
                 <%= form_with scope: :user, url: users_path, local: true do |f| %>
                     <p>
-                        <div>
+                        <div class="formstuff">
                             <%= f.text_field :name, class: "formTextField" %></br>
                             <%= f.label :name, class: "formLabel" %></br>
                         </div>
 
-                        <div>
+                        <div class="formstuff">
                             <%= f.text_field :email, class: "formTextField" %></br>
                             <%= f.label :email, class: "formLabel" %></br>
                         </div>
                 
-                        <div>
+                        <div class="formstuff">
                             <%= f.text_field :phonenumber, class: "formTextField" %></br>
                             <%= f.label :phonenumber, class: "formLabel" %></br>
                         </div>
