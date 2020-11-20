@@ -10,8 +10,50 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
+    <div class="bg-modal">
+      <div class="modal-content">
+        <div id="formbox">
+          <div class="close-button">+</div>
+          <h1 class="modalTitle">Contact Us</h1>
+          <%= form_with scope: :user, url: users_path, local: true do |f| %>
+              <p>
+                <div class="modal-form-content">
+                    <div class="formstuff">
+                        <%= f.text_field :name, class: "formTextField" %></br>
+                        <%= f.label :name, class: "formLabel" %></br>
+                    </div>
+
+                    <div class="formstuff">
+                        <%= f.text_field :email, class: "formTextField" %></br>
+                        <%= f.label :email, class: "formLabel" %></br>
+                    </div>
+            
+                    <div class="formstuff">
+                        <%= f.text_field :phonenumber, class: "formTextField" %></br>
+                        <%= f.label :phonenumber, class: "formLabel" %></br>
+                    </div>
+            
+                    <div>
+                        <%= f.submit class: "button modalButton", value: "Submit" %>
+                    </div>
+                </div>
+              </p>
+          <% end %>
+      </div>
+          </div>
+    </div>
     <%= yield %>
+    <script>
+      document.getElementById('contactus').addEventListener('click', 
+        function() {
+          document.querySelector('.bg-modal').style.display = 'flex';
+      });
+
+      document.querySelector('.close-button').addEventListener('click',
+      function(){
+            document.querySelector('.bg-modal').style.display = 'none';
+      });
+  </script>
   </body>
 </html>
