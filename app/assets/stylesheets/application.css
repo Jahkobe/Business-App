@@ -27,6 +27,8 @@
 
  .header{
     background-color: white;
+    position: fixed;
+    width: 100%;
  }
 
  .navbar{
@@ -452,7 +454,9 @@ ul li:before{
 
 
 
-
+/*          */
+/*    About us      */
+/*          */
 
 
 .aboutUsParagraph{
@@ -462,6 +466,29 @@ ul li:before{
 .aboutUsHeader{
   padding-top: 150px;
 }
+
+
+
+
+
+/*          */
+/*    Footer      */
+/*          */
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(218, 218, 218);
+  color: white;
+  text-align: center;
+}
+
+
+
+
 
  /*            */
  /*  Fonts     */
