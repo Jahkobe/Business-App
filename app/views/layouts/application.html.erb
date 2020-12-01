@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&family=Lato:wght@400;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&family=Lato:wght@400;900&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -30,8 +32,8 @@
                     </div>
             
                     <div class="formstuff">
-                        <%= f.text_field :phonenumber, class: "formTextField" %></br>
-                        <%= f.label :phonenumber, class: "formLabel" %></br>
+                        <%= f.text_area :phonenumber, class: "formTextField" %></br>
+                        <%= f.label :Description, class: "formLabel" %></br>
                     </div>
             
                     <div>

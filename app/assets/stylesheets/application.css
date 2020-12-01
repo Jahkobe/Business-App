@@ -26,6 +26,7 @@
 
 
  .header{
+   box-shadow: 0 .2px .5px 0;
     background-color: white;
     position: fixed;
     width: 100%;
@@ -47,6 +48,7 @@
  }
 
  .link{
+     font-family: 'Lato', sans-serif;
      padding: 18px 20px;
      list-style: none;
      color: #7D8F8C;
@@ -57,10 +59,15 @@
     
 }
 
+.imagess{
+  box-shadow: 0 2px 2px 0;
+}
+
  .a{
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
-     color:  #7D8F8C;
-     padding: 18px 0;
+    color:  #7D8F8C;
+    padding: 18px 0;
  }
 
  a:visited{
@@ -84,6 +91,7 @@
  /*            */
 
  img{
+   box-shadow: 0 2px 12px 0;
     max-width: 100%;
     height: auto;
  }
@@ -101,6 +109,7 @@
   }
 
   p {
+      font-family: 'Lato', sans-serif;
       font-size: 18px;
       color: #253D47;
       font-weight: 600;
@@ -115,7 +124,12 @@
       max-width: 40%;
   }
 
+  .consultimage{
+    box-shadow: 0 1px 4px 0;
+  }
+
   .welcomeheader{
+      font-family: 'Oswald', sans-serif;
       text-align: center;
       color: #253D47;
       font-size: 36px;
@@ -123,6 +137,7 @@
   }
 
   .welcomeheadertwo{
+    font-family: 'Lato', sans-serif;
     text-align: center;
     color: #B0C9B1;
     font-size: 24px;
@@ -140,6 +155,7 @@
   }
 
     .button {
+        font-family: 'Oswald', sans-serif;
         background-color:#7D8F8C ;
         border: none;
         color: white;
@@ -149,7 +165,7 @@
         display: inline-block;
         font-size: 16px;
         border-radius: 10px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.11);
       }
 
       .button:hover {
@@ -161,6 +177,7 @@
  /*            */
 
       .formLabel{
+        /* font-family: 'Major Mono Display', monospace; */
         font-family: 'Lato', sans-serif;
         font-weight: 600;
       }
@@ -186,6 +203,7 @@
       }
 
       .formButton{
+
         margin-top: 40px;
         display: block;
         margin-left: auto;
@@ -237,6 +255,7 @@
   }
 
  .serviceheader{
+      font-family: 'Oswald', sans-serif;
       text-align: center;
       color: #253D47;
       font-size: 36px;
@@ -245,6 +264,7 @@
     }
 
   .servicehead{
+    font-family: 'Oswald', sans-serif;
     color: #B0C9B1;
     font-size: 21px;
     font-weight: bold;
@@ -252,9 +272,14 @@
   }
 
   .servicedescription{
+     font-family: 'Lato', sans-serif;
     text-align: center;
      font-size: 18px; 
      font-weight: 500;
+  }
+
+  .responsiveimg{
+    box-shadow: none;
   }
 
   @media only screen and (max-width: 1000px) {
@@ -278,6 +303,32 @@
     
 
     }
+
+    
+
+
+/*          */
+/*    About us      */
+/*          */
+
+
+.aboutusbackground{
+  background-color: #B0C9B1;;
+}
+
+.aboutUsParagraph{
+  text-indent: 50px;
+}
+
+.aboutUsHeader{
+  padding-top: 150px;
+}
+
+.aboutusimage{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 
 
    /*            */
@@ -327,6 +378,8 @@
 }
 
 .servicepage_header {
+  
+    font-family: 'Oswald', sans-serif;
     font-size: 36px;
     text-align: center;
     padding: 1em;
@@ -334,15 +387,21 @@
 }
 
 .servicepage_description {
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     padding: 1em;
 }
 
 .serviceslogodesignimg{
+  box-shadow: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.servicesarrowfont{
+    font-family: 'Lato', sans-serif;
 }
 
 #arrow {
@@ -454,21 +513,6 @@ ul li:before{
 
 
 
-/*          */
-/*    About us      */
-/*          */
-
-
-.aboutUsParagraph{
-  text-indent: 50px;
-}
-
-.aboutUsHeader{
-  padding-top: 150px;
-}
-
-
-
 
 
 /*          */
@@ -496,3 +540,4 @@ ul li:before{
 
  /* font-family: 'Lato', sans-serif; */
  /* font-family: 'Oswald', sans-serif; */
+ /* font-family: 'Major Mono Display', monospace; */

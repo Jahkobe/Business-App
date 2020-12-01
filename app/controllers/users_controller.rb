@@ -15,7 +15,7 @@ class UsersController < ApplicationController
     end
 
     def create
-        @user = User.new(params.require(:user).permit(:email, :name, :phonenumber))
+        @user = User.new(params.require(:user).permit(:email, :name, :phonenumber, :description))
         @user.save
         redirect_to :root
     end
