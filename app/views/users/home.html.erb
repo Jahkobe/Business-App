@@ -1,7 +1,7 @@
 <header class="header">
     <div class="container">
         <div class="navbar">
-                <%= link_to 'Company LOGO', root_path, {:class => "a"} %>
+                <%= link_to 'Company LOGO', root_path, {:class => "a companylogo"} %>
             <nav>
             <ul class="navul">
                 <li class="link">
@@ -28,7 +28,7 @@
                 <%= image_tag('header.png', :class => "imagess") %>
         </div>
         <div class="bodycontainer">
-            <div class= "welcomeimage">
+            <div class= "welcomeimage firstimage">
                 <%= image_tag('firstimage.jpg') %>
             </div>
         
@@ -51,7 +51,7 @@
         <div class="servicesbackground">
             <h2 class="serviceheader">Our Services</h2>
             <div class="servicescontainer">
-                <div class="service">
+                <div class="service" id="firstservice">
                     <%= image_tag('branding_icon.png', :class => "responsiveimg") %>
                     <h3 class="servicehead">
                         Branding
@@ -98,7 +98,7 @@
                     We have proffesional writers that will ensure the message your business wants to comminicate is relayed to your clients.
                     </p>
                 </div>
-                <div class="service">
+                <div class="service" id="finalservice">
                     <%= image_tag('websitemaintenance_icon.png', :class => "responsiveimg")  %>
                     <h3 class="servicehead">
                         Website Maintenance
@@ -123,7 +123,7 @@
                     <br>
                     <p>We pride ourselves on providing great communication, high quality deliverables, and cost effective services. We love what we do and cant wait to meet you and turn your vision into a reality. </p>
             </div>
-            <div class= "welcomeimage">
+            <div class= "welcomeimage foundersimage">
                 <%= image_tag('founders.png') %>
             </div> 
         </div>
